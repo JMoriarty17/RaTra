@@ -33,7 +33,10 @@ Edit manual di VS Code juga bisa langsung ke file JSON di `data/`.
 `data/alias.json`: pemetaan ejaan alternatif (huruf kecil) → ejaan baku.
 
 ## Catatan
-- Setelah deploy ulang, pengguna yang sudah memasang PWA melihat data baru pada pembukaan kedua (cache stale-while-revalidate). Untuk memaksa, naikkan `C="rate-v2"` di `sw.js`.
+- Setelah deploy ulang, pengguna yang sudah memasang PWA melihat data baru pada pembukaan kedua (cache stale-while-revalidate). Untuk memaksa, naikkan `C="rate-v4"` di `sw.js`.
+
+## SK baru lewat tempel teks (admin)
+Di `/admin.html` buka **Tempel teks SK baru**, tempel seluruh teks PDF SK, klik **Baca & buat SK baru**. Periksa hasilnya, lalu **Unduh SK** dan **Unduh index.json**, taruh di `data/`, commit dan sync. Pembaca ada di `js/parse.js`.
 
 ## Admin PIN
 `/admin.html` dikunci PIN (di `js/admin.js`, konstanta `PIN_HASH`). Ini hanya penghalang tampilan di sisi browser, bukan keamanan sungguhan. Data tetap aman karena perubahan baru berlaku setelah di-commit.

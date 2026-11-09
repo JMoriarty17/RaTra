@@ -32,6 +32,21 @@ $("chk").onclick=()=>{const m=[],seen={};
  [...new Set(cur.villages.map(v=>v.kec))].forEach(k=>{if(ik[k]!=1)m.push(`Kecamatan ${k}: harus tepat 1 ibu kota (sekarang ${ik[k]||0})`)});
  const vn=new Set(cur.villages.map(v=>norm(v.n))),un=new Set();cur.routes.forEach(r=>[r.a,r.b].forEach(x=>{if(x&&!vn.has(norm(x)))un.add(x)}));
  $("msg").style.display="";$("msg").innerHTML=(m.length?"<b>Perlu diperbaiki:</b><br>"+m.join("<br>"):"<b>✓ Tidak ada masalah ditemukan.</b>")+(un.size?`<p class="mu">Nama di rute yang tidak ada di daftar desa (cek ejaan, atau abaikan jika memang desa tanpa rate kecamatan): ${[...un].join(", ")}</p>`:"")};
+$("parse").onclick=()=>{const text=$("paste").value;if(!text.trim())return alert("Tempel teks SK dulu.");
+ F[cf]=toObj();const all=Object.values(F),kecOf={};all.forEach(s=>s.villages.forEach(v=>kecOf[norm(v.n)]=v.kec));
+ const known=[...new Set(all.flatMap(s=>[...s.villages.map(v=>v.n),...s.routes.flatMap(r=>[r[0],r[1]])]))];
+ const {sk,warn}=parseSK(text,known,ALIAS,kecOf),m=$("msg"),w=warn.length?"<p class=\"mu\">"+warn.map(esc).join("<br>")+"</p>":"";m.style.display="";
+ if(!sk||!sk.villages.length){m.innerHTML="<b>Gagal membaca SK.</b>"+w;return}
+ if(!sk.id){const id=prompt("ID file SK baru (contoh: sk-200-2026)");if(!id)return;sk.id=id}
+ const f=sk.id+".json";if(files.includes(f)&&!confirm("File "+f+" sudah ada. Timpa?"))return;
+ const prev=Object.values(F).filter(s=>s.id!=sk.id).sort((a,b)=>b.tanggal.localeCompare(a.tanggal))[0];
+ if(!files.includes(f))files.push(f);F[f]=sk;fill(f);load(f);
+ let cmp="";if(prev){const pv={},pr={};prev.villages.forEach(v=>pv[norm(v.n)]=v);prev.routes.forEach(r=>pr[[norm(r[0]),norm(r[1])].sort().join("|")]=r[2]);
+  const dv=sk.villages.filter(v=>{const p=pv[norm(v.n)];return !p||p.kec_rate!=v.kec_rate||p.kab_rate!=v.kab_rate}).length;
+  let dr=0,nr=0;sk.routes.forEach(r=>{const k=[norm(r[0]),norm(r[1])].sort().join("|");if(pr[k]==null)nr++;else if(pr[k]!=r[2])dr++});
+  cmp=`<br>Dibanding SK ${esc(prev.nomor)}: ${dv} desa berubah rate, ${dr} rute berubah, ${nr} rute baru.`}
+ m.innerHTML=`<b>✓ SK ${esc(sk.nomor||sk.id)} terbaca:</b> ${sk.villages.length} desa, ${sk.routes.length} rute, ${sk.special.length} rute khusus.${cmp}<br>Periksa lalu klik <b>Unduh SK</b> dan <b>Unduh index.json</b>.`+w;
+ $("pst").open=false};
 function save(name,data){const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([JSON.stringify(data,null,1)],{type:"application/json"}));a.download=name;a.click()}
 $("dl1").onclick=()=>{const o=toObj();if(!o.id||!o.nomor||!o.tanggal)return alert("Isi ID file, Nomor SK, dan Tanggal dulu.");save(o.id+".json",o)};
 $("dl2").onclick=()=>{F[cf]=toObj();const n=toObj().id+".json";if(n!=cf&&cf){const i=files.indexOf(cf);if(!F[cf].nomor&&i>-1&&cf!=n)files[i]=n}save("index.json",{files})};

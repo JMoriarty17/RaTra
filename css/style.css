@@ -54,3 +54,6 @@ code{background:var(--bg);padding:1px 6px;border-radius:6px;font-size:.85em}
 #app .tabs{grid-template-columns:repeat(3,1fr)}
 header code{background:rgba(255,255,255,.22);color:#fff}
 .tabs button{min-width:0;padding:0 6px;line-height:1.2}
+textarea{width:100%;font:inherit;font-size:.85rem;padding:10px 13px;border:1.5px solid var(--bd);border-radius:12px;background:var(--card);color:var(--tx);resize:vertical}
+textarea:focus{outline:0;border-color:var(--ac);box-shadow:0 0 0 3px rgba(11,107,203,.2)}
+summary{cursor:pointer;min-height:28px}details.card p{margin:8px 0}
