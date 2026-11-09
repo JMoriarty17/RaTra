@@ -33,4 +33,7 @@ Edit manual di VS Code juga bisa langsung ke file JSON di `data/`.
 `data/alias.json`: pemetaan ejaan alternatif (huruf kecil) → ejaan baku.
 
 ## Catatan
-- Setelah deploy ulang, pengguna yang sudah memasang PWA melihat data baru pada pembukaan kedua (cache stale-while-revalidate). Untuk memaksa, naikkan `C="rate-v1"` di `sw.js`.
+- Setelah deploy ulang, pengguna yang sudah memasang PWA melihat data baru pada pembukaan kedua (cache stale-while-revalidate). Untuk memaksa, naikkan `C="rate-v2"` di `sw.js`.
+
+## Admin PIN
+`/admin.html` dikunci PIN (di `js/admin.js`, konstanta `PIN_HASH`). Ini hanya penghalang tampilan di sisi browser, bukan keamanan sungguhan. Data tetap aman karena perubahan baru berlaku setelah di-commit.

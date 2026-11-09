@@ -35,4 +35,12 @@ $("chk").onclick=()=>{const m=[],seen={};
 function save(name,data){const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([JSON.stringify(data,null,1)],{type:"application/json"}));a.download=name;a.click()}
 $("dl1").onclick=()=>{const o=toObj();if(!o.id||!o.nomor||!o.tanggal)return alert("Isi ID file, Nomor SK, dan Tanggal dulu.");save(o.id+".json",o)};
 $("dl2").onclick=()=>{F[cf]=toObj();const n=toObj().id+".json";if(n!=cf&&cf){const i=files.indexOf(cf);if(!F[cf].nomor&&i>-1&&cf!=n)files[i]=n}save("index.json",{files})};
-(async()=>{const x=await j("data/index.json");files=x.files;ALIAS=await j("data/alias.json");for(const f of files)F[f]=await j("data/"+f);fill();load(files[0])})();
+async function start(){const x=await j("data/index.json");files=x.files;ALIAS=await j("data/alias.json");for(const f of files)F[f]=await j("data/"+f);fill();load(files[0])}
+
+const H=s=>{let a=0xdeadbeef,b=0x41c6ce57;for(let i=0;i<s.length;i++){const c=s.charCodeAt(i);a=Math.imul(a^c,2654435761);b=Math.imul(b^c,1597334677)}a=Math.imul(a^(a>>>16),2246822507)^Math.imul(b^(b>>>13),3266489909);b=Math.imul(b^(b>>>16),2246822507)^Math.imul(a^(a>>>13),3266489909);return(4294967296*(2097151&b)+(a>>>0)).toString(36)};
+const PIN_HASH="2agv2fiizu0";let started=0;
+function unlock(){$("lock").style.display="none";$("app").style.display="";try{sessionStorage.adm=PIN_HASH}catch(e){}if(!started){started=1;start()}}
+function tryPin(){if(H("ratra:"+$("pin").value.trim())==PIN_HASH)return unlock();
+ $("lerr").textContent="PIN salah";$("pin").classList.add("bad");$("pin").value="";setTimeout(()=>$("pin").classList.remove("bad"),400)}
+$("go").onclick=tryPin;$("pin").onkeydown=e=>{if(e.key=="Enter")tryPin()};
+try{if(sessionStorage.adm==PIN_HASH)unlock();else $("pin").focus()}catch(e){$("pin").focus()}

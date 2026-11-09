@@ -2,7 +2,10 @@
 <html lang="id"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Admin Rate Transport</title><link rel="stylesheet" href="css/style.css"></head><body>
-<main style="max-width:900px">
+<div id="lock"><div><div class="lk">🔒</div><h2>Halaman Admin</h2><div class="mu">Masukkan PIN untuk melanjutkan</div>
+<input id="pin" type="password" inputmode="numeric" maxlength="8" autocomplete="off" placeholder="••••" aria-label="PIN">
+<div id="lerr"></div><button class="btn pri" id="go">Masuk</button><p class="mu"><a href="./">← Kembali ke kalkulator</a></p></div></div>
+<main id="app" style="max-width:900px;display:none">
 <header><div><h1>Admin Rate</h1><div class="sub">Edit di sini → unduh JSON → ganti file di folder <code>data/</code> → commit &amp; push. <a href="./">← Kembali</a></div></div></header>
 <label for="f">Pilih SK</label><select id="f"></select>
 <div class="two"><div><label>ID file</label><input id="id"></div><div><label>Nomor SK</label><input id="nomor"></div></div>
