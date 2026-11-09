@@ -25,7 +25,7 @@ function render(){const sk=cur();let h="";last=null;const A=$("a").value,B=$("b"
  if(mode=="sp")sk.special.forEach(s=>h+=box("ok",s.n,x=>x.special.find(q=>q.n==s.n)?.rate));
  else if(mode!="dd"){if(A){const v=sk.V[a];
   if(!v)h=box("wr","Desa tidak ditemukan",()=>null,"Desa ini tidak punya rate langsung ke kecamatan/kabupaten, atau ejaannya berbeda.");
-  else{const kc=mode=="kc";h=box("ok",`${v.n} → ibu kota ${kc?"kecamatan":"kabupaten"} (PP)`,x=>val(x,A),`Kecamatan ${v.kec} · ibu kota: ${sk.ik[v.kec]||"–"}${v.ik?" (desa ini)":""}`)}}}
+  else{const kc=mode=="kc";const kab="Buntok Kota";h=box("ok",kc?`${v.n} → ${sk.ik[v.kec]||"ibu kota kecamatan"} (PP)`:`${v.n} → ${kab} (PP)`,x=>val(x,A),kc?`Kecamatan ${v.kec} · ibu kota kecamatan: ${sk.ik[v.kec]||"–"}${v.ik?" (desa ini)":""}`:`Tujuan: ${kab}, ibu kota Kabupaten Barito Selatan${norm(kab)==a?" (desa ini)":""}`)}}}
  else if(A&&B){
   if(a==b)h=box("wr","Desa asal dan tujuan sama",()=>null);
   else if(val(sk,A,B)!=null)h=box("ok",`${sk.nm[a]||A} ↔ ${sk.nm[b]||B} (PP)`,x=>val(x,A,B),"Rute tercantum di SK "+sk.nomor);

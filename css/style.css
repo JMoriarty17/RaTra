@@ -30,7 +30,7 @@ input[type=checkbox]{width:22px;min-height:22px;accent-color:var(--ac)}
 table{width:100%;border-collapse:collapse;font-size:.9rem;margin-top:6px}td,th{padding:7px 0;border-top:1px solid var(--bd);text-align:left}td:last-child{text-align:right;font-weight:600}
 .d{font-size:.75rem;font-weight:700}.up{color:var(--up)}.dn{color:var(--dn)}.cp{margin-top:10px;min-height:38px;font-size:.85rem}
 #tot{font-size:.95rem;padding:10px 12px;background:var(--bg);border-radius:10px}#tot b{font-size:1.15rem;color:var(--ac)}
-.sc{overflow-x:auto;border-radius:12px}.adm table{min-width:560px}.adm th{position:sticky;top:0;background:var(--card);font-size:.75rem;text-transform:uppercase;color:var(--mu)}
+.sc{overflow-x:auto;border-radius:12px}.adm table{min-width:620px}.adm th{position:sticky;top:0;background:var(--card);font-size:.75rem;text-transform:uppercase;color:var(--mu)}
 .adm td,.adm th{border:0;padding:3px;text-align:left;font-weight:600}.adm td{font-weight:400}.adm input{min-height:40px;min-width:90px}.adm td:last-child{text-align:right}
 code{background:var(--bg);padding:1px 6px;border-radius:6px;font-size:.85em}
 #lock{position:fixed;inset:0;z-index:9;display:flex;align-items:center;justify-content:center;padding:20px;background:linear-gradient(135deg,#0b5fb8,#0aa39a)}
@@ -39,3 +39,18 @@ code{background:var(--bg);padding:1px 6px;border-radius:6px;font-size:.85em}
 #pin{text-align:center;font-size:1.6rem;letter-spacing:.5em;font-weight:700;margin:14px 0 10px}
 #pin.bad{border-color:var(--up);animation:sh .3s}@keyframes sh{25%{transform:translateX(-6px)}75%{transform:translateX(6px)}}
 #lock .btn{width:100%}#lerr{color:var(--up);font-size:.85rem;min-height:1.3em;margin-bottom:6px}
+
+.adm .tabs{grid-template-columns:repeat(3,1fr)}.adm td[data-l*="Ibu"]{text-align:center}
+@media(min-width:900px){#app{max-width:1000px!important}.adm table{min-width:0}}
+@media(max-width:640px){
+ .adm{overflow:visible}.adm table,.adm tbody,.adm tr,.adm td{display:block;min-width:0!important;width:100%}
+ .adm tr:first-child{display:none}
+ .adm tr{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:10px 12px;margin-bottom:10px;box-shadow:var(--sh)}
+ .adm td{padding:4px 0;text-align:left!important}
+ .adm td[data-l]::before{content:attr(data-l);display:block;font-size:.72rem;font-weight:600;text-transform:uppercase;letter-spacing:.02em;color:var(--mu);margin-bottom:2px}
+ .adm td[data-l*="Ibu"]{display:flex;align-items:center;gap:10px}.adm td[data-l*="Ibu"]::before{margin:0}.adm td[data-l*="Ibu"] input{width:24px}
+ .adm td.x{text-align:right!important}.adm td.x .btn{width:100%;color:var(--up)}
+ .adm input{min-width:0;width:100%}}
+#app .tabs{grid-template-columns:repeat(3,1fr)}
+header code{background:rgba(255,255,255,.22);color:#fff}
+.tabs button{min-width:0;padding:0 6px;line-height:1.2}

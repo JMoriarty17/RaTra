@@ -13,7 +13,7 @@ function draw(){const rows=cur[tab],q=$("q").value.toLowerCase(),C=COLS[tab];
  $("tabs").innerHTML=Object.entries(TABS).map(([k,v])=>`<button class="${k==tab?"on":""}" data-t="${k}">${v}</button>`).join("");
  let h="<table><tr>"+C.map(c=>`<th>${c[1]}</th>`).join("")+"<th></th></tr>";
  rows.forEach((r,i)=>{if(q&&!C.some(c=>c[2]=="text"&&String(r[c[0]]).toLowerCase().includes(q)))return;
-  h+="<tr>"+C.map(([k,,t])=>`<td><input data-i="${i}" data-k="${k}" type="${t=="check"?"checkbox":t=="num"?"number":"text"}" ${t=="check"?(r[k]?"checked":""):`value="${esc(r[k]??"")}"`}></td>`).join("")+`<td><button class="btn" data-del="${i}" aria-label="Hapus">✕</button></td></tr>`});
+  h+="<tr>"+C.map(([k,l,t])=>`<td data-l="${l}"><input data-i="${i}" data-k="${k}" type="${t=="check"?"checkbox":t=="num"?"number":"text"}" ${t=="check"?(r[k]?"checked":""):`value="${esc(r[k]??"")}"`}></td>`).join("")+`<td class="x"><button class="btn" data-del="${i}" aria-label="Hapus">✕</button></td></tr>`});
  $("tbl").innerHTML=h+"</table>"}
 $("tabs").onclick=e=>{if(e.target.dataset.t){tab=e.target.dataset.t;draw()}};
 $("q").oninput=draw;
