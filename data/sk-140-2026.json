@@ -1,0 +1,1420 @@
+{
+ "id": "sk-140-2026",
+ "nomor": "140 Tahun 2026",
+ "tanggal": "2026-07-20",
+ "villages": [
+  {
+   "n": "Tampulang",
+   "kec": "Jenamas",
+   "ik": false,
+   "kec_rate": 850000,
+   "kab_rate": 1254000
+  },
+  {
+   "n": "Rantau Bahuang",
+   "kec": "Jenamas",
+   "ik": false,
+   "kec_rate": 250000,
+   "kab_rate": 654000
+  },
+  {
+   "n": "Rantau Kujang",
+   "kec": "Jenamas",
+   "ik": true,
+   "kec_rate": 100000,
+   "kab_rate": 404000
+  },
+  {
+   "n": "Rangga Ilung",
+   "kec": "Jenamas",
+   "ik": false,
+   "kec_rate": 300000,
+   "kab_rate": 404000
+  },
+  {
+   "n": "Tabatan",
+   "kec": "Jenamas",
+   "ik": false,
+   "kec_rate": 800000,
+   "kab_rate": 1204000
+  },
+  {
+   "n": "Sungai Jaya",
+   "kec": "Dusun Hilir",
+   "ik": false,
+   "kec_rate": 800000,
+   "kab_rate": 1264000
+  },
+  {
+   "n": "Bakota",
+   "kec": "Dusun Hilir",
+   "ik": false,
+   "kec_rate": 900000,
+   "kab_rate": 1264000
+  },
+  {
+   "n": "Mahajandau",
+   "kec": "Dusun Hilir",
+   "ik": false,
+   "kec_rate": 450000,
+   "kab_rate": 814000
+  },
+  {
+   "n": "Mengkatip",
+   "kec": "Dusun Hilir",
+   "ik": true,
+   "kec_rate": 100000,
+   "kab_rate": 364000
+  },
+  {
+   "n": "Kalanis",
+   "kec": "Dusun Hilir",
+   "ik": false,
+   "kec_rate": 200000,
+   "kab_rate": 604000
+  },
+  {
+   "n": "Lehai",
+   "kec": "Dusun Hilir",
+   "ik": false,
+   "kec_rate": 400000,
+   "kab_rate": 914000
+  },
+  {
+   "n": "Pinungku",
+   "kec": "Dusun Hilir",
+   "ik": false,
+   "kec_rate": 550000,
+   "kab_rate": 914000
+  },
+  {
+   "n": "Damparan",
+   "kec": "Dusun Hilir",
+   "ik": false,
+   "kec_rate": 250000,
+   "kab_rate": 324000
+  },
+  {
+   "n": "Teluk Timbau",
+   "kec": "Dusun Hilir",
+   "ik": false,
+   "kec_rate": 300000,
+   "kab_rate": 324000
+  },
+  {
+   "n": "Muara Puning",
+   "kec": "Dusun Hilir",
+   "ik": false,
+   "kec_rate": 450000,
+   "kab_rate": 524000
+  },
+  {
+   "n": "Batilap",
+   "kec": "Dusun Hilir",
+   "ik": false,
+   "kec_rate": 600000,
+   "kab_rate": 924000
+  },
+  {
+   "n": "Batampang",
+   "kec": "Dusun Hilir",
+   "ik": false,
+   "kec_rate": 850000,
+   "kab_rate": 1174000
+  },
+  {
+   "n": "Mangkatir",
+   "kec": "Dusun Hilir",
+   "ik": false,
+   "kec_rate": 400000,
+   "kab_rate": 764000
+  },
+  {
+   "n": "Salat Baru",
+   "kec": "Karau Kuala",
+   "ik": false,
+   "kec_rate": 300000,
+   "kab_rate": 394000
+  },
+  {
+   "n": "Bangkuang",
+   "kec": "Karau Kuala",
+   "ik": true,
+   "kec_rate": 100000,
+   "kab_rate": 284000
+  },
+  {
+   "n": "Teluk Betung",
+   "kec": "Karau Kuala",
+   "ik": false,
+   "kec_rate": 300000,
+   "kab_rate": 284000
+  },
+  {
+   "n": "Janggi",
+   "kec": "Karau Kuala",
+   "ik": false,
+   "kec_rate": 450000,
+   "kab_rate": 750000
+  },
+  {
+   "n": "Babai",
+   "kec": "Karau Kuala",
+   "ik": false,
+   "kec_rate": 350000,
+   "kab_rate": 264000
+  },
+  {
+   "n": "Malitin",
+   "kec": "Karau Kuala",
+   "ik": false,
+   "kec_rate": 370000,
+   "kab_rate": 750000
+  },
+  {
+   "n": "Muara Arai",
+   "kec": "Karau Kuala",
+   "ik": false,
+   "kec_rate": 700000,
+   "kab_rate": 750000
+  },
+  {
+   "n": "Talio",
+   "kec": "Karau Kuala",
+   "ik": false,
+   "kec_rate": 600000,
+   "kab_rate": 264000
+  },
+  {
+   "n": "Tampijak",
+   "kec": "Karau Kuala",
+   "ik": false,
+   "kec_rate": 650000,
+   "kab_rate": 264000
+  },
+  {
+   "n": "Bintang Kurung",
+   "kec": "Karau Kuala",
+   "ik": false,
+   "kec_rate": 700000,
+   "kab_rate": 264000
+  },
+  {
+   "n": "Teluk Sampudau",
+   "kec": "Karau Kuala",
+   "ik": false,
+   "kec_rate": 750000,
+   "kab_rate": 264000
+  },
+  {
+   "n": "Muara Talang",
+   "kec": "Dusun Selatan",
+   "ik": false,
+   "kec_rate": 264000,
+   "kab_rate": 180000
+  },
+  {
+   "n": "Teluk Telaga",
+   "kec": "Dusun Selatan",
+   "ik": false,
+   "kec_rate": 180000,
+   "kab_rate": 170000
+  },
+  {
+   "n": "Baru",
+   "kec": "Dusun Selatan",
+   "ik": false,
+   "kec_rate": 160000,
+   "kab_rate": 710000
+  },
+  {
+   "n": "Bambaler",
+   "kec": "Dusun Selatan",
+   "ik": false,
+   "kec_rate": 710000,
+   "kab_rate": 710000
+  },
+  {
+   "n": "Danau Sadar",
+   "kec": "Dusun Selatan",
+   "ik": false,
+   "kec_rate": 140000,
+   "kab_rate": 140000
+  },
+  {
+   "n": "Jelapat",
+   "kec": "Dusun Selatan",
+   "ik": false,
+   "kec_rate": 100000,
+   "kab_rate": 100000
+  },
+  {
+   "n": "Hilir Sper",
+   "kec": "Dusun Selatan",
+   "ik": false,
+   "kec_rate": 100000,
+   "kab_rate": 100000
+  },
+  {
+   "n": "Danau Ganting",
+   "kec": "Dusun Selatan",
+   "ik": false,
+   "kec_rate": 120000,
+   "kab_rate": 120000
+  },
+  {
+   "n": "Mangaris",
+   "kec": "Dusun Selatan",
+   "ik": false,
+   "kec_rate": 165000,
+   "kab_rate": 165000
+  },
+  {
+   "n": "Dangka",
+   "kec": "Dusun Selatan",
+   "ik": false,
+   "kec_rate": 200000,
+   "kab_rate": 200000
+  },
+  {
+   "n": "Tetei Lanan",
+   "kec": "Dusun Selatan",
+   "ik": false,
+   "kec_rate": 180000,
+   "kab_rate": 180000
+  },
+  {
+   "n": "Pamangka",
+   "kec": "Dusun Selatan",
+   "ik": false,
+   "kec_rate": 165000,
+   "kab_rate": 165000
+  },
+  {
+   "n": "Sababilah",
+   "kec": "Dusun Selatan",
+   "ik": false,
+   "kec_rate": 145000,
+   "kab_rate": 145000
+  },
+  {
+   "n": "Pamait",
+   "kec": "Dusun Selatan",
+   "ik": false,
+   "kec_rate": 120000,
+   "kab_rate": 120000
+  },
+  {
+   "n": "Buntok Kota",
+   "kec": "Dusun Selatan",
+   "ik": true,
+   "kec_rate": 100000,
+   "kab_rate": 100000
+  },
+  {
+   "n": "Muara Ripung",
+   "kec": "Dusun Selatan",
+   "ik": false,
+   "kec_rate": 200000,
+   "kab_rate": 200000
+  },
+  {
+   "n": "Mabuan",
+   "kec": "Dusun Selatan",
+   "ik": false,
+   "kec_rate": 140000,
+   "kab_rate": 140000
+  },
+  {
+   "n": "Murung Paken",
+   "kec": "Dusun Selatan",
+   "ik": false,
+   "kec_rate": 250000,
+   "kab_rate": 250000
+  },
+  {
+   "n": "Madara",
+   "kec": "Dusun Selatan",
+   "ik": false,
+   "kec_rate": 400000,
+   "kab_rate": 400000
+  },
+  {
+   "n": "Kalahien",
+   "kec": "Dusun Selatan",
+   "ik": false,
+   "kec_rate": 160000,
+   "kab_rate": 410000
+  },
+  {
+   "n": "Parigi",
+   "kec": "Dusun Selatan",
+   "ik": false,
+   "kec_rate": 410000,
+   "kab_rate": 410000
+  },
+  {
+   "n": "Lembeng",
+   "kec": "Dusun Selatan",
+   "ik": false,
+   "kec_rate": 130000,
+   "kab_rate": 130000
+  },
+  {
+   "n": "Sanggu",
+   "kec": "Dusun Selatan",
+   "ik": false,
+   "kec_rate": 140000,
+   "kab_rate": 140000
+  },
+  {
+   "n": "Telang Andrau",
+   "kec": "Dusun Selatan",
+   "ik": false,
+   "kec_rate": 210000,
+   "kab_rate": 210000
+  },
+  {
+   "n": "Penda Asam",
+   "kec": "Dusun Selatan",
+   "ik": false,
+   "kec_rate": 150000,
+   "kab_rate": 150000
+  },
+  {
+   "n": "Pararapak",
+   "kec": "Dusun Selatan",
+   "ik": false,
+   "kec_rate": 180000,
+   "kab_rate": 180000
+  },
+  {
+   "n": "Teluk Mampun",
+   "kec": "Dusun Selatan",
+   "ik": false,
+   "kec_rate": 224000,
+   "kab_rate": 230000
+  },
+  {
+   "n": "Tanjung Jawa",
+   "kec": "Dusun Selatan",
+   "ik": false,
+   "kec_rate": 220000,
+   "kab_rate": 230000
+  },
+  {
+   "n": "Danau Masura",
+   "kec": "Dusun Selatan",
+   "ik": false,
+   "kec_rate": 230000,
+   "kab_rate": 230000
+  },
+  {
+   "n": "Pendang",
+   "kec": "Dusun Utara",
+   "ik": true,
+   "kec_rate": 100000,
+   "kab_rate": 244000
+  },
+  {
+   "n": "Majundre",
+   "kec": "Dusun Utara",
+   "ik": false,
+   "kec_rate": 200000,
+   "kab_rate": 250000
+  },
+  {
+   "n": "Sungai Telang",
+   "kec": "Dusun Utara",
+   "ik": false,
+   "kec_rate": 250000,
+   "kab_rate": 250000
+  },
+  {
+   "n": "Talekoi",
+   "kec": "Dusun Utara",
+   "ik": false,
+   "kec_rate": 150000,
+   "kab_rate": 300000
+  },
+  {
+   "n": "Bundar",
+   "kec": "Dusun Utara",
+   "ik": false,
+   "kec_rate": 150000,
+   "kab_rate": 300000
+  },
+  {
+   "n": "Marawan Lama",
+   "kec": "Dusun Utara",
+   "ik": false,
+   "kec_rate": 100000,
+   "kab_rate": 264000
+  },
+  {
+   "n": "Marawan Baru",
+   "kec": "Dusun Utara",
+   "ik": false,
+   "kec_rate": 100000,
+   "kab_rate": 264000
+  },
+  {
+   "n": "Reong",
+   "kec": "Dusun Utara",
+   "ik": false,
+   "kec_rate": 140000,
+   "kab_rate": 284000
+  },
+  {
+   "n": "Maruga",
+   "kec": "Dusun Utara",
+   "ik": false,
+   "kec_rate": 200000,
+   "kab_rate": 370000
+  },
+  {
+   "n": "Hingan",
+   "kec": "Dusun Utara",
+   "ik": false,
+   "kec_rate": 200000,
+   "kab_rate": 370000
+  },
+  {
+   "n": "Danau Bambure",
+   "kec": "Dusun Utara",
+   "ik": false,
+   "kec_rate": 220000,
+   "kab_rate": 370000
+  },
+  {
+   "n": "Tamparak",
+   "kec": "Dusun Utara",
+   "ik": false,
+   "kec_rate": 240000,
+   "kab_rate": 320000
+  },
+  {
+   "n": "Bantai Bambure",
+   "kec": "Dusun Utara",
+   "ik": false,
+   "kec_rate": 280000,
+   "kab_rate": 350000
+  },
+  {
+   "n": "Rampa Mea",
+   "kec": "Dusun Utara",
+   "ik": false,
+   "kec_rate": 300000,
+   "kab_rate": 370000
+  },
+  {
+   "n": "Hulu Tampang",
+   "kec": "Dusun Utara",
+   "ik": false,
+   "kec_rate": 250000,
+   "kab_rate": 500000
+  },
+  {
+   "n": "Panarukan",
+   "kec": "Dusun Utara",
+   "ik": false,
+   "kec_rate": 250000,
+   "kab_rate": 500000
+  },
+  {
+   "n": "Tarusan",
+   "kec": "Dusun Utara",
+   "ik": false,
+   "kec_rate": 200000,
+   "kab_rate": 304000
+  },
+  {
+   "n": "Gunung Rantau",
+   "kec": "Dusun Utara",
+   "ik": false,
+   "kec_rate": 110000,
+   "kab_rate": 284000
+  },
+  {
+   "n": "Tamparak Layung",
+   "kec": "Dusun Utara",
+   "ik": false,
+   "kec_rate": 260000,
+   "kab_rate": 335000
+  },
+  {
+   "n": "Baruang",
+   "kec": "Gunung Bintang Awai",
+   "ik": false,
+   "kec_rate": 130000,
+   "kab_rate": 200000
+  },
+  {
+   "n": "Wungkur Baru",
+   "kec": "Gunung Bintang Awai",
+   "ik": false,
+   "kec_rate": 140000,
+   "kab_rate": 220000
+  },
+  {
+   "n": "Kayumban",
+   "kec": "Gunung Bintang Awai",
+   "ik": false,
+   "kec_rate": 110000,
+   "kab_rate": 240000
+  },
+  {
+   "n": "Tabak Kanilan",
+   "kec": "Gunung Bintang Awai",
+   "ik": true,
+   "kec_rate": 100000,
+   "kab_rate": 230000
+  },
+  {
+   "n": "Sarimbuah",
+   "kec": "Gunung Bintang Awai",
+   "ik": false,
+   "kec_rate": 110000,
+   "kab_rate": 210000
+  },
+  {
+   "n": "Ruhing Raya",
+   "kec": "Gunung Bintang Awai",
+   "ik": false,
+   "kec_rate": 110000,
+   "kab_rate": 220000
+  },
+  {
+   "n": "Muka Haji",
+   "kec": "Gunung Bintang Awai",
+   "ik": false,
+   "kec_rate": 120000,
+   "kab_rate": 240000
+  },
+  {
+   "n": "Sire",
+   "kec": "Gunung Bintang Awai",
+   "ik": false,
+   "kec_rate": 130000,
+   "kab_rate": 250000
+  },
+  {
+   "n": "Gagutur",
+   "kec": "Gunung Bintang Awai",
+   "ik": false,
+   "kec_rate": 150000,
+   "kab_rate": 240000
+  },
+  {
+   "n": "Marga Jaya",
+   "kec": "Gunung Bintang Awai",
+   "ik": false,
+   "kec_rate": 130000,
+   "kab_rate": 220000
+  },
+  {
+   "n": "Ugang Sayu",
+   "kec": "Gunung Bintang Awai",
+   "ik": false,
+   "kec_rate": 130000,
+   "kab_rate": 220000
+  },
+  {
+   "n": "Bipak Kali",
+   "kec": "Gunung Bintang Awai",
+   "ik": false,
+   "kec_rate": 250000,
+   "kab_rate": 240000
+  },
+  {
+   "n": "Muara Singan",
+   "kec": "Gunung Bintang Awai",
+   "ik": false,
+   "kec_rate": 160000,
+   "kab_rate": 260000
+  },
+  {
+   "n": "Patas I",
+   "kec": "Gunung Bintang Awai",
+   "ik": false,
+   "kec_rate": 160000,
+   "kab_rate": 250000
+  },
+  {
+   "n": "Patas II",
+   "kec": "Gunung Bintang Awai",
+   "ik": false,
+   "kec_rate": 180000,
+   "kab_rate": 280000
+  },
+  {
+   "n": "Bintang Ara",
+   "kec": "Gunung Bintang Awai",
+   "ik": false,
+   "kec_rate": 450000,
+   "kab_rate": 600000
+  },
+  {
+   "n": "Malungai Raya",
+   "kec": "Gunung Bintang Awai",
+   "ik": false,
+   "kec_rate": 350000,
+   "kab_rate": 400000
+  },
+  {
+   "n": "Palu Rejo",
+   "kec": "Gunung Bintang Awai",
+   "ik": false,
+   "kec_rate": 150000,
+   "kab_rate": 240000
+  },
+  {
+   "n": "Wayun",
+   "kec": "Gunung Bintang Awai",
+   "ik": false,
+   "kec_rate": 150000,
+   "kab_rate": 240000
+  },
+  {
+   "n": "Sei Paken",
+   "kec": "Gunung Bintang Awai",
+   "ik": false,
+   "kec_rate": 170000,
+   "kab_rate": 270000
+  },
+  {
+   "n": "Ngurit",
+   "kec": "Gunung Bintang Awai",
+   "ik": false,
+   "kec_rate": 350000,
+   "kab_rate": 400000
+  }
+ ],
+ "routes": [
+  [
+   "Tampulang",
+   "Rantau Bahuang",
+   700000
+  ],
+  [
+   "Rantau Bahuang",
+   "Rangga Ilung",
+   550000
+  ],
+  [
+   "Rantau Kujang",
+   "Kalanis",
+   500000
+  ],
+  [
+   "Rantau Kujang",
+   "Mengkatip",
+   320000
+  ],
+  [
+   "Rantau Kujang",
+   "Bangkuang",
+   360000
+  ],
+  [
+   "Rangga Ilung",
+   "Batampang",
+   1100000
+  ],
+  [
+   "Sungai Jaya",
+   "Mahajandau",
+   450000
+  ],
+  [
+   "Sungai Jaya",
+   "Damparan",
+   1150000
+  ],
+  [
+   "Mahajandau",
+   "Kalanis",
+   650000
+  ],
+  [
+   "Mahajandau",
+   "Damparan",
+   750000
+  ],
+  [
+   "Mahajandau",
+   "Mengkatip",
+   450000
+  ],
+  [
+   "Kalanis",
+   "Damparan",
+   450000
+  ],
+  [
+   "Kalanis",
+   "Lehai",
+   500000
+  ],
+  [
+   "Lehai",
+   "Damparan",
+   800000
+  ],
+  [
+   "Lehai",
+   "Mengkatip",
+   550000
+  ],
+  [
+   "Damparan",
+   "Teluk Timbau",
+   100000
+  ],
+  [
+   "Damparan",
+   "Batilap",
+   400000
+  ],
+  [
+   "Damparan",
+   "Batampang",
+   500000
+  ],
+  [
+   "Damparan",
+   "Mengkatip",
+   250000
+  ],
+  [
+   "Damparan",
+   "Bangkuang",
+   300000
+  ],
+  [
+   "Damparan",
+   "Teluk Betung",
+   400000
+  ],
+  [
+   "Damparan",
+   "Babai",
+   550000
+  ],
+  [
+   "Bangkuang",
+   "Kalanis",
+   750000
+  ],
+  [
+   "Bangkuang",
+   "Batampang",
+   600000
+  ],
+  [
+   "Teluk Timbau",
+   "Batilap",
+   300000
+  ],
+  [
+   "Teluk Timbau",
+   "Bangkuang",
+   200000
+  ],
+  [
+   "Teluk Timbau",
+   "Babai",
+   380000
+  ],
+  [
+   "Muara Puning",
+   "Teluk Timbau",
+   200000
+  ],
+  [
+   "Batilap",
+   "Batampang",
+   200000
+  ],
+  [
+   "Salat Baru",
+   "Teluk Betung",
+   310000
+  ],
+  [
+   "Teluk Betung",
+   "Babai",
+   350000
+  ],
+  [
+   "Janggi",
+   "Malitin",
+   390000
+  ],
+  [
+   "Babai",
+   "Muara Arai",
+   410000
+  ],
+  [
+   "Babai",
+   "Talio",
+   350000
+  ],
+  [
+   "Babai",
+   "Babai Seberang",
+   200000
+  ],
+  [
+   "Baru",
+   "Bintang Kurung",
+   350000
+  ],
+  [
+   "Baru",
+   "Bambaler",
+   550000
+  ],
+  [
+   "Baru",
+   "Baru Seberang",
+   200000
+  ],
+  [
+   "Danau Harapan",
+   "Bintang Kurung",
+   300000
+  ],
+  [
+   "Malitin",
+   "Muara Arai",
+   350000
+  ],
+  [
+   "Talio",
+   "Baru",
+   400000
+  ],
+  [
+   "Talio",
+   "Bintang Kurung",
+   370000
+  ],
+  [
+   "Tampijak",
+   "Bintang Kurung",
+   290000
+  ],
+  [
+   "Teluk Sampudau",
+   "Baru",
+   350000
+  ],
+  [
+   "Teluk Sampudau",
+   "Bintang Kurung",
+   290000
+  ],
+  [
+   "Pamait",
+   "Muara Ripung",
+   205000
+  ],
+  [
+   "Pamait",
+   "Sanggu",
+   120000
+  ],
+  [
+   "Muara Ripung",
+   "Danau Masura",
+   115000
+  ],
+  [
+   "Murung Paken",
+   "Danau Masura",
+   115000
+  ],
+  [
+   "Lembeng",
+   "Danau Masura",
+   200000
+  ],
+  [
+   "Majundre",
+   "Sungai Telang",
+   100000
+  ],
+  [
+   "Majundre",
+   "Bantai Bambure",
+   250000
+  ],
+  [
+   "Sungai Telang",
+   "Bantai Bambure",
+   250000
+  ],
+  [
+   "Talekoi",
+   "Bundar",
+   100000
+  ],
+  [
+   "Talekoi",
+   "Bantai Bambure",
+   250000
+  ],
+  [
+   "Bundar",
+   "Marawan Baru",
+   200000
+  ],
+  [
+   "Bundar",
+   "Bantai Bambure",
+   200000
+  ],
+  [
+   "Bundar",
+   "Rampa Mea",
+   250000
+  ],
+  [
+   "Bundar",
+   "Gunung Rantau",
+   200000
+  ],
+  [
+   "Bundar",
+   "Marawan Lama",
+   150000
+  ],
+  [
+   "Gunung Rantau",
+   "Tarusan",
+   360000
+  ],
+  [
+   "Rampa Mea",
+   "Tarusan",
+   600000
+  ],
+  [
+   "Marawan Lama",
+   "Hulu Tampang",
+   200000
+  ],
+  [
+   "Marawan Lama",
+   "Panarukan",
+   200000
+  ],
+  [
+   "Marawan Lama",
+   "Gunung Rantau",
+   100000
+  ],
+  [
+   "Marawan Lama",
+   "Marawan Baru",
+   100000
+  ],
+  [
+   "Marawan Baru",
+   "Tarusan",
+   300000
+  ],
+  [
+   "Marawan Baru",
+   "Gunung Rantau",
+   100000
+  ],
+  [
+   "Reong",
+   "Tarusan",
+   200000
+  ],
+  [
+   "Reong",
+   "Maruga",
+   280000
+  ],
+  [
+   "Maruga",
+   "Hingan",
+   100000
+  ],
+  [
+   "Danau Bambure",
+   "Tamparak",
+   150000
+  ],
+  [
+   "Tamparak",
+   "Bantai Bambure",
+   150000
+  ],
+  [
+   "Tamparak",
+   "Rampa Mea",
+   200000
+  ],
+  [
+   "Tamparak",
+   "Tamparak Layung",
+   100000
+  ],
+  [
+   "Tamparak Layung",
+   "Ugang Sayu",
+   200000
+  ],
+  [
+   "Tamparak Layung",
+   "Patas I",
+   140000
+  ],
+  [
+   "Bantai Bambure",
+   "Tamparak Layung",
+   100000
+  ],
+  [
+   "Bantai Bambure",
+   "Danau Bambure",
+   200000
+  ],
+  [
+   "Hulu Tampang",
+   "Panarukan",
+   150000
+  ],
+  [
+   "Baruang",
+   "Ruhing Raya",
+   130000
+  ],
+  [
+   "Baruang",
+   "Gagutur",
+   160000
+  ],
+  [
+   "Baruang",
+   "Wungkur Baru",
+   110000
+  ],
+  [
+   "Wungkur Baru",
+   "Gagutur",
+   160000
+  ],
+  [
+   "Kayumban",
+   "Gagutur",
+   140000
+  ],
+  [
+   "Sarimbuah",
+   "Ruhing Raya",
+   100000
+  ],
+  [
+   "Sarimbuah",
+   "Gagutur",
+   160000
+  ],
+  [
+   "Ruhing Raya",
+   "Gagutur",
+   160000
+  ],
+  [
+   "Muka Haji",
+   "Sire",
+   100000
+  ],
+  [
+   "Muka Haji",
+   "Patas I",
+   175000
+  ],
+  [
+   "Sire",
+   "Patas I",
+   185000
+  ],
+  [
+   "Gagutur",
+   "Ngurit",
+   300000
+  ],
+  [
+   "Patas I",
+   "Bintang Ara",
+   350000
+  ],
+  [
+   "Patas I",
+   "Malungai Raya",
+   300000
+  ],
+  [
+   "Patas I",
+   "Sei Paken",
+   110000
+  ],
+  [
+   "Patas I",
+   "Ngurit",
+   280000
+  ],
+  [
+   "Patas I",
+   "Gagutur",
+   120000
+  ],
+  [
+   "Patas I",
+   "Ugang Sayu",
+   120000
+  ],
+  [
+   "Patas I",
+   "Palu Rejo",
+   150000
+  ],
+  [
+   "Patas II",
+   "Bintang Ara",
+   350000
+  ],
+  [
+   "Patas II",
+   "Malungai Raya",
+   300000
+  ],
+  [
+   "Patas II",
+   "Sei Paken",
+   130000
+  ],
+  [
+   "Patas II",
+   "Ngurit",
+   280000
+  ],
+  [
+   "Malungai Raya",
+   "Ngurit",
+   200000
+  ],
+  [
+   "Sababilah",
+   "Dangka",
+   140000
+  ],
+  [
+   "Sababilah",
+   "Majundre",
+   170000
+  ],
+  [
+   "Sababilah",
+   "Pamait",
+   120000
+  ],
+  [
+   "Tabak Kanilan",
+   "Kayumban",
+   110000
+  ],
+  [
+   "Ugang Sayu",
+   "Tamparak Layung",
+   200000
+  ],
+  [
+   "Muara Singan",
+   "Sei Paken",
+   120000
+  ],
+  [
+   "Tanjung Jawa",
+   "Pendang",
+   200000
+  ],
+  [
+   "Kalahien",
+   "Penda Asam",
+   125000
+  ],
+  [
+   "Penda Asam",
+   "Tanjung Jawa",
+   155000
+  ],
+  [
+   "Penda Asam",
+   "Mabuan",
+   140000
+  ],
+  [
+   "Reong",
+   "Bundar",
+   250000
+  ],
+  [
+   "Gagutur",
+   "Wayun",
+   120000
+  ],
+  [
+   "Tampulang",
+   "Tabatan",
+   500000
+  ],
+  [
+   "Ngurit",
+   "Sei Paken",
+   280000
+  ],
+  [
+   "Patas I",
+   "Patas II",
+   110000
+  ],
+  [
+   "Ngurit",
+   "Muka Haji",
+   300000
+  ],
+  [
+   "Hilir Sper",
+   "Lembeng",
+   410000
+  ],
+  [
+   "Lembeng",
+   "Mabuan",
+   130000
+  ],
+  [
+   "Hilir Sper",
+   "Pararapak",
+   170000
+  ],
+  [
+   "Pararapak",
+   "Madara",
+   215000
+  ],
+  [
+   "Hilir Sper",
+   "Penda Asam",
+   210000
+  ],
+  [
+   "Penda Asam",
+   "Teluk Mampun",
+   140000
+  ],
+  [
+   "Teluk Mampun",
+   "Tanjung Jawa",
+   115000
+  ],
+  [
+   "Sababilah",
+   "Kalahien",
+   285000
+  ],
+  [
+   "Sababilah",
+   "Murung Paken",
+   375000
+  ],
+  [
+   "Reong",
+   "Panarukan",
+   400000
+  ],
+  [
+   "Reong",
+   "Marawan Lama",
+   150000
+  ],
+  [
+   "Reong",
+   "Hingan",
+   300000
+  ],
+  [
+   "Hilir Sper",
+   "Muara Talang",
+   180000
+  ],
+  [
+   "Hilir Sper",
+   "Mangaris",
+   150000
+  ],
+  [
+   "Hilir Sper",
+   "Dangka",
+   180000
+  ],
+  [
+   "Bundar",
+   "Sungai Telang",
+   250000
+  ],
+  [
+   "Ngurit",
+   "Bintang Ara",
+   200000
+  ],
+  [
+   "Ngurit",
+   "Sire",
+   300000
+  ],
+  [
+   "Hilir Sper",
+   "Mabuan",
+   140000
+  ],
+  [
+   "Hilir Sper",
+   "Madara",
+   400000
+  ],
+  [
+   "Hilir Sper",
+   "Tanjung Jawa",
+   230000
+  ],
+  [
+   "Hilir Sper",
+   "Hilir Sper Seberang",
+   250000
+  ],
+  [
+   "Pendang",
+   "Marawan Baru",
+   200000
+  ]
+ ],
+ "special": [
+  {
+   "n": "Buntok Kota ↔ Buntok Seberang (PP)",
+   "rate": 200000
+  },
+  {
+   "n": "Pelabuhan → tempat kegiatan di Buntok Kota (PP)",
+   "rate": 60000
+  }
+ ]
+}

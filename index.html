@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="id"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0b6bcb"><link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icon.svg">
+<title>Rate Transport BPS Barito Selatan</title><link rel="stylesheet" href="css/style.css"></head><body>
+<main>
+<header><div><h1>Rate Transport Lokal</h1><div class="sub" id="sub">Memuat data…</div></div><button id="theme" class="ic" aria-label="Ganti tema">◐</button></header>
+<label for="sk">Acuan SK</label><select id="sk"></select>
+<nav class="tabs" id="tabs"></nav>
+<section class="card" id="inp"><div class="pair"><div>
+<label id="l1" for="a">Desa asal</label><input id="a" list="dl" autocomplete="off" autocapitalize="words" placeholder="Ketik nama desa…">
+<div id="b2"><label for="b">Desa tujuan</label><input id="b" list="dl" autocomplete="off" autocapitalize="words" placeholder="Ketik nama desa…"></div>
+</div><button id="swap" class="ic" aria-label="Tukar asal dan tujuan">⇅</button></div></section>
+<datalist id="dl"></datalist>
+<div id="out"></div>
+<section class="card"><b>Hitung biaya</b>
+<div class="two"><div><label for="n">Jumlah orang</label><input id="n" type="number" inputmode="numeric" min="1" value="1"></div>
+<div><label for="t">Jumlah perjalanan (PP)</label><input id="t" type="number" inputmode="numeric" min="1" value="1"></div></div>
+<div id="tot" class="mu" style="margin-top:10px"></div></section>
+<p class="mu">Rute desa ke desa berlaku dua arah. Angka “estimasi/acuan” bukan rate resmi, hanya pembanding bila rute tidak tercantum di SK.</p>
+<p class="mu"><a href="admin.html">Admin: ubah rate</a></p>
+</main><script src="js/app.js"></script></body></html>

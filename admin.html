@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="id"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Admin Rate Transport</title><link rel="stylesheet" href="css/style.css"></head><body>
+<main style="max-width:900px">
+<header><div><h1>Admin Rate</h1><div class="sub">Edit di sini → unduh JSON → ganti file di folder <code>data/</code> → commit &amp; push. <a href="./">← Kembali</a></div></div></header>
+<label for="f">Pilih SK</label><select id="f"></select>
+<div class="two"><div><label>ID file</label><input id="id"></div><div><label>Nomor SK</label><input id="nomor"></div></div>
+<label>Tanggal berlaku</label><input id="tanggal" type="date">
+<div class="row"><button class="btn" id="dup">Duplikat jadi SK baru</button><button class="btn" id="chk">Cek validasi</button></div>
+<nav class="tabs" id="tabs"></nav>
+<input id="q" placeholder="Cari…" style="margin-bottom:8px">
+<div class="sc adm" id="tbl"></div>
+<div class="row"><button class="btn" id="add">+ Tambah baris</button></div>
+<div id="msg" class="res wr" style="display:none;margin-top:12px"></div>
+<div class="row"><button class="btn pri" id="dl1">Unduh SK (.json)</button><button class="btn" id="dl2">Unduh index.json</button></div>
+</main><script src="js/admin.js"></script></body></html>
