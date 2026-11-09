@@ -1,24 +1,58 @@
 <!DOCTYPE html>
-<html lang="id"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Admin Rate Transport</title><link rel="stylesheet" href="css/style.css?v=4"></head><body>
-<div id="lock"><div><div class="lk">🔒</div><h2>Halaman Admin</h2><div class="mu">Masukkan PIN untuk melanjutkan</div>
-<input id="pin" type="password" inputmode="numeric" maxlength="8" autocomplete="off" placeholder="••••" aria-label="PIN">
-<div id="lerr"></div><button class="btn pri" id="go">Masuk</button><p class="mu"><a href="./">← Kembali ke kalkulator</a></p></div></div>
-<main id="app" style="max-width:900px;display:none">
-<header><div><h1>Admin Rate</h1><div class="sub">Edit di sini → unduh JSON → ganti file di folder <code>data/</code> → commit &amp; push. <a href="./">← Kembali</a></div></div></header>
-<details class="card" id="pst"><summary><b>📋 Tempel teks SK baru</b></summary>
-<p class="mu">Buka PDF SK, salin <b>seluruh isinya</b> (halaman 1 sampai lampiran terakhir), lalu tempel di sini. Nomor, tanggal, desa, rute, dan rute khusus dibaca otomatis menjadi SK baru.</p>
-<textarea id="paste" rows="6" placeholder="Tempel teks SK di sini…"></textarea>
-<div class="row"><button class="btn pri" id="parse">Baca &amp; buat SK baru</button></div></details>
-<label for="f">Pilih SK</label><select id="f"></select>
-<div class="two"><div><label>ID file</label><input id="id"></div><div><label>Nomor SK</label><input id="nomor"></div></div>
-<label>Tanggal berlaku</label><input id="tanggal" type="date">
-<div class="row"><button class="btn" id="dup">Duplikat jadi SK baru</button><button class="btn" id="chk">Cek validasi</button></div>
-<nav class="tabs" id="tabs"></nav>
-<input id="q" placeholder="Cari…" style="margin-bottom:8px">
-<div class="sc adm" id="tbl"></div>
-<div class="row"><button class="btn" id="add">+ Tambah baris</button></div>
-<div id="msg" class="res wr" style="display:none;margin-top:12px"></div>
-<div class="row"><button class="btn pri" id="dl1">Unduh SK (.json)</button><button class="btn" id="dl2">Unduh index.json</button></div>
-</main><script src="js/parse.js?v=4"></script><script src="js/admin.js?v=4"></script></body></html>
+<html lang="id">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <title>Admin Rate Transport</title>
+    <link rel="stylesheet" href="css/style.css?v=4">
+</head>
+
+<body>
+    <div id="lock">
+        <div>
+            <div class="lk">🔒</div>
+            <h2>Halaman Admin</h2>
+            <div class="mu">Masukkan PIN untuk melanjutkan</div>
+            <input id="pin" type="password" inputmode="numeric" maxlength="8" autocomplete="off" placeholder="••••"
+                aria-label="PIN">
+            <div id="lerr"></div><button class="btn pri" id="go">Masuk</button>
+            <p class="mu"><a href="./">← Kembali ke kalkulator</a></p>
+        </div>
+    </div>
+    <main id="app" style="max-width:900px;display:none">
+        <header>
+            <div>
+                <h1>Admin Rate</h1>
+                <div class="sub">Edit di sini → unduh JSON → ganti file di folder <code>data/</code> → commit &amp;
+                    push. <a href="./">← Kembali</a></div>
+            </div>
+        </header>
+        <details class="card" id="pst">
+            <summary><b>📋 Tempel teks SK baru</b></summary>
+            <p class="mu">Buka PDF SK, salin <b>seluruh isinya</b> (halaman 1 sampai lampiran terakhir), lalu tempel di
+                sini. Nomor, tanggal, desa, rute, dan rute khusus dibaca otomatis menjadi SK baru.</p>
+            <textarea id="paste" rows="6" placeholder="Tempel teks SK di sini…"></textarea>
+            <div class="row"><button class="btn pri" id="parse">Baca &amp; buat SK baru</button></div>
+        </details>
+        <label for="f">Pilih SK</label><select id="f"></select>
+        <div class="two">
+            <div><label>ID file</label><input id="id"></div>
+            <div><label>Nomor SK</label><input id="nomor"></div>
+        </div>
+        <label>Tanggal berlaku</label><input id="tanggal" type="date">
+        <div class="row"><button class="btn" id="dup">Duplikat jadi SK baru</button><button class="btn" id="chk">Cek
+                validasi</button></div>
+        <nav class="tabs" id="tabs"></nav>
+        <input id="q" placeholder="Cari…" style="margin-bottom:8px">
+        <div class="sc adm" id="tbl"></div>
+        <div class="row"><button class="btn" id="add">+ Tambah baris</button></div>
+        <div id="msg" class="res wr" style="display:none;margin-top:12px"></div>
+        <div class="row"><button class="btn pri" id="dl1">Unduh SK (.json)</button><button class="btn" id="dl2">Unduh
+                index.json</button></div>
+    </main>
+    <script src="js/parse.js?v=4"></script>
+    <script src="js/admin.js?v=4"></script>
+</body>
+
+</html>
